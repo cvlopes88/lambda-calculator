@@ -12,7 +12,7 @@ const Operators = () => {
     <div>
   
       {operators.map(operator => (
-         <OperatorButton operator={operator.char} />
+         <OperatorButton operatorVal={operator.value}  operatorChar={operator.char}  />
           
       ))}
 

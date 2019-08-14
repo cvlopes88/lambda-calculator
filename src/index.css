@@ -4,6 +4,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 code {
@@ -14,10 +15,12 @@ code {
 .container {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 500px;
-  background-color: red;
+  width: 450px;
+  height: 700px;
+  background-color: rgb(143, 13, 13);
   margin: 0 auto;
+  padding: 30px;
+  border-radius: 20px;
 }
 
 
@@ -35,4 +38,67 @@ code {
   align-content: center;
   height: 50px;
   padding: 20px;
+}
+
+.numbs {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 66px;
+  font-size: 37px;
+  color: white;
+  background-color: rgb(31, 31, 110);
+
+
+}
+
+.display {
+    background-color: gray;
+    border-radius: 136px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 60px;
+    padding: 10px;
+}
+
+.numDiv {
+  width: 336px;
+}
+
+.numbs:nth-child(10) {
+  width: 180px;
+}
+
+.special {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 66px;
+  font-size: 37px;
+  color: white;
+  background-color: rgb(97, 97, 185);
+
+
+}
+
+.operator {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 66px;
+  font-size: 37px;
+  color: white;
+  background-color: rgb(97, 97, 185);
+
+}
+
+.allNum {
+  display: flex;
+    flex-direction: row;
+}
+
+.operatorNum {
+  margin: 0 auto;
 }

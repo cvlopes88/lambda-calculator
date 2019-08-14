@@ -4,7 +4,7 @@ import Numbers from "./Numbers"
 const NumberButton = props => {
   return (
     
-     <button> {props.number} </button>
+     <button className="numbs"> {props.number} </button>
     
   ) 
 }

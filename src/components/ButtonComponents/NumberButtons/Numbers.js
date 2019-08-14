@@ -16,7 +16,7 @@ export default function Numbers () {
          <NumberButton number={number} />
           
       ))}
- }
+ 
 
 
 

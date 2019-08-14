@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Operators from "./Operators";
 const OperatorButton = props => {
   return (
-   <button>{props.Operators}</button>
+   <button className="operator">{props.operatorVal}</button>
   )
 }
 export default OperatorButton;
